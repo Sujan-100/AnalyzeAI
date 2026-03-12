@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env
+.venv/
+
+# Environment files
+.env
+.env.*
+
+# Uploads / generated
+uploads/
+*.log
+
+# Node
+node_modules/
+Frontend two/node_modules/
+
+# Build output
+Frontend two/dist/
+Frontend two/dist/public/
+
+# Replit/local state
+Frontend two/.local/
+Frontend two/.replit
+Frontend two/attached_assets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite / tooling
+*.tsbuildinfo
