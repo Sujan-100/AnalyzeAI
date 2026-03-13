@@ -1,19 +1,13 @@
 absl-py==2.3.1
 annotated-types==0.7.0
 blinker==1.9.0
-
-# FIXED (google-auth requires <6)
 cachetools==5.3.3
-
 certifi==2025.10.5
 cffi==2.0.0
 charset-normalizer==3.4.4
 click==8.3.0
 colorama==0.4.6
-
-# FIXED (avoid typing_extensions conflict)
 cryptography==43.0.1
-
 filelock==3.20.0
 Flask==3.0.3
 flask-cors==4.0.1
@@ -45,7 +39,7 @@ nltk==3.8.1
 numpy==1.26.4
 packaging==24.1
 
-pdfminer.six==20240706
+pdfminer.six==20231228
 pdfplumber==0.11.0
 pillow==10.4.0
 
